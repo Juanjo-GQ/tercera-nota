@@ -1,0 +1,126 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "prueba",
+            "request": "launch",
+            "mainClass": "practicassss.prueba",
+            "projectName": "tercera-nota_cd8674bd"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "tercera-nota_cd8674bd"
+        },
+        {
+            "type": "java",
+            "name": "EjercicioOperadoresAritmeticos",
+            "request": "launch",
+            "mainClass": "EjercicioOperadoresAritmeticos",
+            "projectName": "tercera-nota_cd8674bd"
+        },
+        {
+            "type": "java",
+            "name": "EjercicioPreguntas",
+            "request": "launch",
+            "mainClass": "EjercicioPreguntas",
+            "projectName": "tercera-nota_cd8674bd"
+        },
+        {
+            "type": "java",
+            "name": "EjercicioVariables",
+            "request": "launch",
+            "mainClass": "EjercicioVariables",
+            "projectName": "tercera-nota_cd8674bd"
+        },
+        {
+            "type": "java",
+            "name": "JuegoMarvel",
+            "request": "launch",
+            "mainClass": "JuegoMarvel",
+            "projectName": "tercera-nota_cd8674bd"
+        },
+        {
+            "type": "java",
+            "name": "Practica",
+            "request": "launch",
+            "mainClass": "Practica",
+            "projectName": "tercera-nota_cd8674bd"
+        },
+        {
+            "type": "java",
+            "name": "Prueba",
+            "request": "launch",
+            "mainClass": "Prueba",
+            "projectName": "tercera-nota_cd8674bd"
+        },
+        {
+            "type": "java",
+            "name": "cuentabancaria",
+            "request": "launch",
+            "mainClass": "cuentabancaria",
+            "projectName": "tercera-nota_cd8674bd"
+        },
+        {
+            "type": "java",
+            "name": "ea",
+            "request": "launch",
+            "mainClass": "ea",
+            "projectName": "tercera-nota_cd8674bd"
+        },
+        {
+            "type": "java",
+            "name": "eb",
+            "request": "launch",
+            "mainClass": "eb",
+            "projectName": "tercera-nota_cd8674bd"
+        },
+        {
+            "type": "java",
+            "name": "ec",
+            "request": "launch",
+            "mainClass": "ec",
+            "projectName": "tercera-nota_cd8674bd"
+        },
+        {
+            "type": "java",
+            "name": "ed",
+            "request": "launch",
+            "mainClass": "ed",
+            "projectName": "tercera-nota_cd8674bd"
+        },
+        {
+            "type": "java",
+            "name": "ee",
+            "request": "launch",
+            "mainClass": "ee",
+            "projectName": "tercera-nota_cd8674bd"
+        },
+        {
+            "type": "java",
+            "name": "javita",
+            "request": "launch",
+            "mainClass": "javita",
+            "projectName": "tercera-nota_cd8674bd"
+        },
+        {
+            "type": "java",
+            "name": "Jueguito",
+            "request": "launch",
+            "mainClass": "src.Jueguito",
+            "projectName": "tercera-nota_cd8674bd"
+        }
+    ]
+}
