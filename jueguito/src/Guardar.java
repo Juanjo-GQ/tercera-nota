@@ -5,10 +5,7 @@ import java.io.PrintWriter;
 import java.util.Scanner;
 
 public class Guardar {
-
     private static final String ARCHIVO = "partida.txt";
-
-    // Escribe el estado actual en el archivo 'partida.txt'
     public static void guardar(Prota heroe, int indiceVillano) {
         try {
             PrintWriter writer = new PrintWriter(new FileWriter(ARCHIVO));
@@ -25,14 +22,10 @@ public class Guardar {
             System.out.println("\n Error al guardar la partida: " + e.getMessage());
         }
     }
-
-    // Comprueba si existe un guardado previo
     public static boolean existePartida() {
         File file = new File(ARCHIVO);
         return file.exists();
     }
-
-    // Lee el archivo y reconstruye al objeto Protagonista
     public static Prota cargarHeroe() {
         try {
             Scanner lector = new Scanner(new File(ARCHIVO));
@@ -53,19 +46,17 @@ public class Guardar {
             return null;
         }
     }
-
-    // Lee el número del villano por el cual debe continuar la partida
     public static int cargarIndiceVillano() {
         try {
             Scanner lector = new Scanner(new File(ARCHIVO));
             for (int i = 0; i < 6; i++) {
-                lector.nextLine(); // Salta las 6 líneas del personaje
+                lector.nextLine();
             }
             int indice = Integer.parseInt(lector.nextLine());
             lector.close();
             return indice;
         } catch (Exception e) {
-            return 0; // Si falla, empieza desde el primer villano
+            return 0;
         }
     }
 }

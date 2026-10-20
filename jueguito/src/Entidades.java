@@ -17,14 +17,12 @@ public class Entidades {
         this.enGuardia = false;
         this.botiquines = 3;
     }
-
-    // Ataque básico
     public void golpear(Entidades rival) {
         int dano = this.poderAtaque;
 
         if (rival.enGuardia) {
             dano = dano / 2;
-            rival.enGuardia = false; // Se consume la postura defensiva
+            rival.enGuardia = false;
             System.out.println(rival.alias + " se protegió y redujo el daño a la mitad (" + dano + " HP).");
         } else {
             System.out.println(this.alias + " ataca y causa " + dano + " de daño a " + rival.alias + ".");
@@ -35,14 +33,10 @@ public class Entidades {
             rival.puntosVida = 0;
         }
     }
-
-    // Activa reducción de daño para el siguiente turno
     public void cubrirse() {
         this.enGuardia = true;
         System.out.println(this.alias + " se pone en guardia. Reducirá el daño en el próximo turno.");
     }
-
-    // Sistema de curación (Ilimitado para Deadpool, 3 usos para otros héroes)
     public void sanarHeridas(int cantidad) {
         boolean esDeadpool = this.alias.equalsIgnoreCase("Deadpool");
 
